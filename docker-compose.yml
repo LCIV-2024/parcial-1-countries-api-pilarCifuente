@@ -1,0 +1,7 @@
+services:
+  java-app:
+    container_name: java-app
+    image: country-java_app
+    build: .
+    ports:
+      - "8080:8080"
